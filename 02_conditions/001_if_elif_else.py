@@ -1,8 +1,8 @@
 balance = 50000
 withdrawal = int(input("Enter the amount you wish to Withdraw: "))
-account_active = str(input("Enter the amount you wish to Withdraw (True or False): "))
+account_active = str(input("Is your account active (yes or no): ")).strip().lower() == "yes"
 
-if account_active == False:
+if account_active == "no":
     print("Account is Inactive.")
 elif withdrawal > balance:
     print("Insufficient Balance.")

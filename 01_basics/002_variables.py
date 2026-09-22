@@ -1,7 +1,5 @@
-# Variables
-
 name = "Rahul"
 age = 20
 
-print(name);
-print(age);
+print(name)
+print(age)

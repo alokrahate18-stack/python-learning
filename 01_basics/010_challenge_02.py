@@ -2,7 +2,7 @@ name = input("\nEnter your Name: ")
 age = int(input("\nEnter your Age: "))
 height = float(input("\nEnter your Height (in feet): "))
 college = input("\nEnter your College Name: ")
-python = bool(input("\nDo you Know Python Programming language (True or False): "))
+python = str(input("\nDo you Know Python Programming language (yes or no): ")).strip().lower()=="yes" or "no"
 
 print("\n============Profile============")
 print("\nName:",name)

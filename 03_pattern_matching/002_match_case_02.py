@@ -8,10 +8,10 @@ match point:
         print(f"Point is on Y-axis at {y}")
     case (x,0):
         print("On X-axis.")
-        print(f"Point is on Y-axis at {x}")
+        print(f"Point is on X-axis at {x}")
     case (x,y):
         print("Somewhere else.")
-        print(f"Point is on Y-axis at ({x}, {y})")
+        print(f"Point is on Axis at ({x}, {y})")
     case _:
         print("Invalid Choice!")
 

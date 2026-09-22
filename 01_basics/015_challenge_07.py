@@ -15,11 +15,11 @@ mouse_total = mouse_qty * mouse_price
 sub_total = laptop_total + mouse_total + keyboard_total
 
 taxable = sub_total - discount
-gst = taxable + (0.18 * taxable)
-gross_total = gst + delivery
+gst = 0.18 * taxable
+gross_total = taxable + gst + delivery
 
 print("---------- INVOICE ----------")
-print("Laptop       × "+laptop_qty+" : ₹ ", laptop_total)
+print(f"Laptop   × {laptop_qty} : ₹ {laptop_total}")
 print("Keyboard     × " +keyboard_qty+ " : ₹ ", keyboard_total)
 print("Mouse        × " +mouse_qty+ " : ₹ ", mouse_total)
 print("\nSubtotal          : ₹ ", sub_total)

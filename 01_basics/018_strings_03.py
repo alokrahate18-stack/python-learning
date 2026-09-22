@@ -6,7 +6,7 @@ low_case_sent = "the quick Brown fOx"
 print(topic)
 print(topic.upper()) # Converts all characters to Upper Case
 print(topic.lower()) # Converts all the characters to the Lower Case.
-print(sample.rstrip("!")) # Remove one trail of the match from right.
+print(sample.rstrip("!")) # Remove all trail of the match from right.
 print(sample.lstrip("!")) # Remove one trail for one match from left.
 print(topic.replace("Methods", "Data")) # Replaces each same word or sentences with the other.
 print(topic.split(" ")) # The thing used inside quotes is used to separate and consider as different elements. It is used to make lists.

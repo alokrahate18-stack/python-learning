@@ -18,6 +18,6 @@ Use a for loop and range().
 """
 x = 1
 
-for i in range(11):
+for i in range(10):
     print(x * x)
     x += 1

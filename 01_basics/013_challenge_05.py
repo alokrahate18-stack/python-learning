@@ -1,9 +1,8 @@
-age = int(input("Enter your Age: "))
-has_Id = bool(input("Do you have ID? (True or False) "))
-has_permission = bool(input("Do you have Permission? (True or False) "))
+age = int(input("Enter your age: "))
+has_id = input("Do you have ID? (yes/no): ").strip().lower() == "yes"
+has_permission = input("Do you have permission? (yes/no): ").strip().lower() == "yes"
 
-
-if (age >=18 & has_Id == "True" & has_permission == "True"):
-    print("You are allowed to Enter!")
+if age >= 18 and has_id and has_permission:
+    print("You are allowed to enter!")
 else:
-    print("You are not allowed")
+    print("You are not allowed.")

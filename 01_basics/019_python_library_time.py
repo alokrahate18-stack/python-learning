@@ -1,6 +1,10 @@
 import time
 from datetime import datetime
 
+formats = {"Hours": "%H", "Minutes": "%M", "Seconds": "%S"}
+for label, code in formats.items():
+    print(f"{label}: {time.strftime(code)}")
+
 now = datetime.now()
 print("Original time:")
 print(now)
