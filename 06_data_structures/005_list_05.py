@@ -1,3 +1,8 @@
+"""Given marks = [72, 45, 98, 60, 88, 33, 91, 55], write a function analyze(marks) that returns [highest, lowest, average] without using max(), min(), or sum(). Use a loop and comparisons instead. Then print it as:
+
+Highest: 98 | Lowest: 33 | Average: 67.75
+- By Claude"""
+
 marks = [72, 45, 98, 60, 88, 33, 91, 55]
 
 def analyse(marks):
@@ -6,7 +11,7 @@ def analyse(marks):
     low = marks[0]
     avg = 0
 
-    for i in range(7):
+    for i in range(len(marks)):
 
         avg += marks[i]
 
@@ -16,6 +21,7 @@ def analyse(marks):
         if (low > marks[i]):
                 low = marks[i]
 
-    avg /= 8
+    avg /= len(marks)
 
     print(f"| Highest: {high} | Lowest: {low} | Average: {avg} |")
+

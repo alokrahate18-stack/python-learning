@@ -1,23 +1,4 @@
-"""
-Write a Python program that prints:
+print("Number (0-4): ")
 
-1
-4
-9
-16
-25
-36
-49
-64
-81
-100
-
-But you are not allowed to manually write all 10 numbers.
-
-Use a for loop and range().
-"""
-x = 1
-
-for i in range(10):
-    print(x * x)
-    x += 1
+for i in range(5): # range(5): 0, 1, 2, 3, 4.
+    print(i)
