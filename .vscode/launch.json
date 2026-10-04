@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+
+    "configurations": [
+        {
+            "name": "🐍 Debug Python File",
+            "type": "debugpy",
+            "request": "launch",
+
+            "program": "${file}",
+
+            "console": "integratedTerminal",
+
+            "justMyCode": true,
+            "subProcess": true,
+
+            "cwd": "${workspaceFolder}",
+
+            "env": {
+                "PYTHONUTF8": "1"
+            },
+
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
