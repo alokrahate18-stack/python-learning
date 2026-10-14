@@ -3,9 +3,17 @@ I have Genuinely learned each and every content from Source like Youtube and Cha
 
 To be specific:
 
-    ○ Youtube —  Code with Harry. Basically i choose Code with Harry for Two Reasons. Firstly, Recommended by a Genuinely Helping Nature Friend. Secondly, One of the highly viewed, so i choose to go with it. No other reason.
+    ○ Youtube —  Code with Harry. Basically i choose Code with Harry for Two Reasons.
+    Firstly, Recommended by a Genuinely Helping Nature Friend.
+    Secondly, One of the highly viewed, so i choose to go with it.
+    No other reason.
 
-    ○ ChatGPT — As you yourself, may be very well Aware of it. AIs like ChatGPT MultiModals AI are developed with the help of various Industry Expert of Multiple Different Profession. So, i think it is one of the Good choice available out there. Also, Youtube Content Provider or any other provides limit question. So, it is one of the Best Counter. The only drawback is that the no visual representation and interactive communication. Well can't be helped.
+    ○ ChatGPT — As you yourself, may be very well Aware of it.
+    AIs like ChatGPT MultiModals AI are developed with the help of various Industry Expert of Multiple Different Profession.
+    So, i think it is one of the Good choice available out there.
+    Also, Youtube Content Provider or any other provides limit question.
+    So, it is one of the Best Counter. The only drawback is that the no visual representation and interactive communication.
+    Well can't be helped.
 
 My Daily Practice Schedule be like: On almost daily basis i practice, work or code on 3 Program daily. It also include Theory and all the stuff.
 
@@ -28,8 +36,8 @@ You can:
 ## 🛠 Tech Stack
 
 - Language: **Python 3**
-- Editor/IDE: *(update with yours, e.g., VS Code, PyCharm)*
-- Additional tools: *(e.g., Jupyter, Git, etc., if relevant)*
+- Editor/IDE: **VS Code**
+- Additional tools: **Git, GitHUB, Claude, ChatGPT, Perplexity, Gemini**
 
 ## 📅 Learning Log (Planned Structure)
 
@@ -64,4 +72,4 @@ Feel free to reach out if you’d like to discuss Python, learning paths, or col
 
 ---
 
-*------------------------------------------------------------ E N D ------------------------------------------------------------*
+*---------------E N D ---------------*
